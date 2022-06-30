@@ -1,7 +1,7 @@
 <?php
-namespace Newtel;
+namespace NewTel;
 
-class Newtel {
+class NewTel {
   public $debug = true;
   private $apiUrl = 'https://api.new-tel.net';
   private $keyNewtel;
