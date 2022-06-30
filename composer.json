@@ -1,13 +1,12 @@
 {
     "name": "alexshangin/new-tel",
     "description": "Library for service new-tel.net",
+    "keywords": ["newtel", "new-tel"],
     "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Alexshangin\\NewTel\\": "src/"
-        }
+    "require": {
+      "php": ">=7.0"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexander Shangin",
@@ -15,7 +14,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-      "php": ">=7.0"
+    "autoload": {
+        "psr-4": {
+            "NewTel\\": "src/"
+        }
     }
 }
