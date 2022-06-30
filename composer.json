@@ -1,0 +1,21 @@
+{
+    "name": "alexshangin/new-tel",
+    "description": "Library for service new-tel.net",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alexshangin\\NewTel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Shangin",
+            "email": "alex@alexshangin.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": [
+      "php": ">=7.0"
+    ]
+}
